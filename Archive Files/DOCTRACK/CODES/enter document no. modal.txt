@@ -1,0 +1,131 @@
+<aside class="control-sidebar control-sidebar-dark">
+    <div class="modal-header">
+      <h5 class="modal-title">SETTINGS</h5>
+    </div>
+
+    <div class="modal-body" <?php if ($department == 'CBO' || $department == 'ACCTG') { ?> style="visibility:visible" <?php } else { ?> style="display:none" <?php } ?>>
+      <div class="box-body">
+        <div class="form-group">
+          <h6 class="modal-title">Please enter Document No.:</h6>
+          <input type="text" name="docno" id="docno" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Date:</label>
+          <label id="lblDate"></label>
+        </div>
+        <div class="form-group">
+          <label>Type:</label>
+          <label id="lblType"></label>
+        </div>
+        <div class="form-group">
+          <label>Change Document Type:</label>
+          <label id="lblRemarks"></label>
+          <div class="col-md-14">
+            <select class="form-control select2" id="select_type" readonly style="width: 100%;" name="type" value="<?php echo  $type; ?>">
+              <option>Please select...</option>
+              <?php while ($get_doctype = $get_all_doctype_data->fetch(PDO::FETCH_ASSOC)) { ?>
+
+                <?php
+                //if $get_author naa value, check nato if equals sa $get_author1['fullname']
+                //if equals, put 'selected' sa option
+                $selected = ($type == $get_doctype['objid']) ? 'selected' : '';
+
+                ?>
+
+                <option <?= $selected; ?> value="<?php echo $get_doctype['objid']; ?>"><?php echo $get_doctype['description']; ?></option>
+              <?php } ?>
+            </select>
+          </div>
+        </div>
+
+        <div class="box-footer" align="center">
+          <input type="button" id="change" name="submit" class="btn btn-success" value="CHANGE">
+        </div>
+
+        <!-- <div class="form-group">
+                    <h5 class="blinking"  id="lblMessage"> </h5>
+                    </div> -->
+
+      </div>
+    </div>
+  </aside>
+
+
+
+
+$('#change').on('click', function() {
+
+      // function receive(){
+      var type = document.getElementById("select_type").value;
+      var docno = document.getElementById("docno").value;
+      //  alert (docno);
+
+      $.ajax({
+        type: 'POST',
+        data: {
+          docno: docno,
+          type: type
+        },
+        url: 'update_type.php',
+        success: function(data) {
+          var result = $.parseJSON(data);
+          alert(data)
+          //  document.getElementById('lblDate').innerHTML = result.date;
+          //  document.getElementById('lblTime').innerHTML = result.time;
+          //  document.getElementById('lblType').innerHTML = result.type;
+          //  document.getElementById('lblParticulars').innerHTML = result.particulars;
+          //  document.getElementById('lblOrigin').innerHTML = result.origin;
+          //  document.getElementById('lblDestination').innerHTML = result.destination;
+          //  document.getElementById('lblRemarks').innerHTML = result.remarks;
+          //  document.getElementById('lblMessage').innerHTML = result.message;
+
+        }
+
+      });
+
+      // document.getElementById('scan_track').focus();
+      // document.getElementById('scan_track').select();
+
+      //
+
+      location.reload();
+    });
+
+
+
+
+   $('#docno').on('change', function() {
+
+      // function receive(){
+      var docno = document.getElementById("docno").value;
+
+      // alert (docno);
+
+      $.ajax({
+        type: 'POST',
+        data: {
+          docno: docno
+        },
+        url: 'scan_receive.php',
+        success: function(data) {
+          var result = $.parseJSON(data);
+          // alert(result.type)
+          document.getElementById('lblDate').innerHTML = result.date;
+          document.getElementById('lblType').innerHTML = result.type;
+          document.getElementById('lblParticulars').innerHTML = result.particulars;
+          document.getElementById('lblOrigin').innerHTML = result.origin;
+          //  document.getElementById('lblRemarks').innerHTML = result.remarks;
+          //  document.getElementById('lblMessage').innerHTML = result.message;
+
+        }
+
+      });
+
+      document.getElementById('scan_receive').focus();
+      document.getElementById('scan_receive').select();
+
+      //
+
+
+    });

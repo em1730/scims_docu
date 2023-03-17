@@ -1,0 +1,141 @@
+<div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Add Supplier</h3>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form" method="post" action="<?php htmlspecialchars("PHP_SELF"); ?>">
+              <div class="box-body">
+                <?php echo $alert_msg; ?>
+
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Code:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="code" placeholder="Supplier Code" value="<?php echo
+                                                                                                            $code; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Name of Supplier:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="name_supplier" placeholder="Name of Supplier" value="<?php echo
+                                                                                                                        $name_supplier; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Proprietor/Owner</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="owner" placeholder="Proprietor/Owner" value="<?php echo
+                                                                                                                $owner; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Product Line:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <textarea rows="5" class="form-control" name="product_line" placeholder="Product Line" required><?php echo
+                                                                                                                    $product_lines; ?></textarea>
+                  </div>
+                </div><br>
+
+
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Address:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <textarea rows="2" class="form-control" name="address" placeholder="Business Address" required><?php echo
+                                                                                                                    $address; ?></textarea>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Authorized Representative:</label>
+                  </div>
+
+
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="contact_person" placeholder="Authorized Representative" value="<?php echo
+                                                                                                                                  $contact_person; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Mobile No.:</label>
+                  </div>
+
+
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="contact_no" placeholder="Mobile Number" value="<?php echo
+                                                                                                                  $contact_no; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Telephone No.:</label>
+                  </div>
+
+
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="telephone_no" placeholder="Telephone Number" value="<?php echo
+                                                                                                                      $telephone_no; ?>" required>
+                  </div>
+                </div><br>
+
+
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Fax No.:</label>
+                  </div>
+
+
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="fax_no" placeholder="Fax No." value="<?php echo
+                                                                                                        $fax_no; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Others:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <textarea rows="5" class="form-control" name="others" placeholder="Others" required><?php echo
+                                                                                                        $others; ?></textarea>
+                  </div>
+                </div><br>
+
+
+
+                <!-- /.box-body -->
+                <div class="box-footer" align="center">
+                  <input type="submit" <?php echo $btnNew; ?> name="add" class="btn btn-primary" value="New">
+                  <input type="submit" <?php echo $btnStatus; ?> name="insert_suppliers" class="btn btn-primary" value="Save">
+
+                  <a href="committee">
+                    <input type="button" name="cancel" class="btn btn-default" value="Cancel">
+                  </a>
+                </div>
+            </form>
+          </div>
+          <!-- /.box -->
+        </div>
