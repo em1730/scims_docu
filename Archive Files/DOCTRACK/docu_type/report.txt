@@ -1,0 +1,279 @@
+array(
+        'objid' => 'RPRT',
+        'type' => 'REPORT',
+        'description' => 'REPORT',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'REPRT',
+        'type' => 'Report',
+        'description' => 'Submitting the Reports',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'REP',
+        'type' => 'REPORT',
+        'description' => 'REPORT',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'Daily Summary Apprehensions (City Wide Enforcers)',
+        'type' => 'Report Apprehensions',
+        'description' => 'Apprehension for  City Wide Report',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'RPTOFDSBRSMNT',
+        'type' => 'Report of Disbursement',
+        'description' => 'Report of Disbursement(ROD)',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'RPTOFFUNDUTLZTN',
+        'type' => 'Report of fund Utilization',
+        'description' => 'Report of fund Utilization',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'RAI',
+        'type' => 'REPORT ON APPOINTMENTS ISSUED',
+        'description' => 'REPORT ON APPOINTMENTS ISSUED',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'QUARTERLY REPORT',
+        'type' => 'QUARTERLY REPORT OF STATEMENT ',
+        'description' => 'SPECIAL EDUCATION FUND UTILIZATION ',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'SEMESTRAL REPORT',
+        'type' => 'SEMESTRAL REPORT ON PUNCTUALITY AND ATTENDANCE',
+        'description' => 'SEMESTRAL REPORT ON PUNCTUALITY AND ATTENDANCE',
+        'status' => 'Active'
+    ),
+//
+    array(
+        'objid' => 'SL',
+        'type' => 'SITUATIONAL REPORT',
+        'description' => 'SITUATIONAL REPORT',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'SITUATIONAL REPORT',
+        'type' => 'SITUATIONAL REPORT',
+        'description' => 'SITUATIONAL REPORT',
+        'status' => 'Active'
+    ),
+//
+    array(
+        'objid' => 'STATRPT',
+        'type' => 'Status Report',
+        'description' => 'Status Report City Waterworks Dep.',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'Status Report',
+        'type' => 'Status Report',
+        'description' => 'Status Report',
+        'status' => 'Active'
+    ),
+//
+    array(
+        'objid' => 'CAO-QR',
+        'type' => 'QUARTERLY REPORT ',
+        'description' => 'QUARTERLY REPORT ON REAL PROPERTY ASSESSMENT ',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'PostQualRep',
+        'type' => 'Post-Qualification Report',
+        'description' => 'Post-Qualification Report',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'MR',
+        'type' => 'MONITORING REPORT',
+        'description' => 'MONITORING REPORT',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'MNTHLYACMPLSHMNTRPRT',
+        'type' => 'Monthly Accomplishment Report',
+        'description' => 'Monthly Accomplishment Report',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'MAR',
+        'type' => 'MONTHLY ACCOMPLISHMENT REPORT',
+        'description' => 'MONTHLY ACCOMPLISHMENT REPORT',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'MCR',
+        'type' => 'MONTHLY COLLECTION REPORT',
+        'description' => 'MONTHLY COLLECTION REPORT',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'MNTHLYMNTRNGRPRT',
+        'type' => 'Monthly Monitoring Report',
+        'description' => 'Monthly Monitoring Report',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'AGRI-SALES-REP',
+        'type' => 'MONTHLY SALES REPORT',
+        'description' => 'MONTHLY REPORT ON VARIOUS AGRICULTURAL PRODUCTS',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'MSR',
+        'type' => 'MONTHLY STATUS REPORT',
+        'description' => 'MONTHLY STATUS REPORT',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'Terminal report',
+        'type' => 'Terminal report',
+        'description' => 'Terminal report Pinta Flores Foundation',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => "The President's Report to the People",
+        'type' => "The President's Report to the People",
+        'description' => "The President's Report to the People",
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'Vehicle Condition Report',
+        'type' => 'Vehicle Condition Report',
+        'description' => 'Vehicle Condition Report',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'WMR',
+        'type' => 'WASTE MATERIAL REPORT',
+        'description' => 'WASTE MATERIAL REPORT',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'Weekly Narrative Report',
+        'type' => 'Weekly Narrative Report',
+        'description' => 'Weekly Narrative Report',
+        'status' => 'Active'
+    ),
+//
+    array(
+        'objid' => 'LR',
+        'type' => 'Liquidation Report',
+        'description' => 'Liquidation Report',
+        'status' => 'Active'
+    ),
+// 
+    array(
+        'objid' => 'INCIDENTREPORT',
+        'type' => 'Incident Report',
+        'description' => 'Incident Report',
+        'status' => 'Active'
+    ),
+    // 
+    array(
+        'objid' => 'INCDNTRPRT',
+        'type' => 'Incident Report',
+        'description' => 'Incident Report',
+        'status' => 'Active'
+    ),
+ // 
+    array(
+        'objid' => 'Hazard Monitoring Report',
+        'type' => 'Hazard Monitoring Report',
+        'description' => 'Hazard Monitoring Report',
+        'status' => 'Active'
+    ),
+ // 
+    array(
+        'objid' => 'FR',
+        'type' => 'FINAL REPORT',
+        'description' => 'FINAL REPORT',
+        'status' => 'Active'
+    ),
+ // 
+    array(
+        'objid' => 'Daily Cash Position Report',
+        'type' => 'Daily Cash Position Report',
+        'description' => 'Daily Cash Position Report',
+        'status' => 'Active'
+    ),
+// 
+    array(
+        'objid' => 'Annual Report',
+        'type' => 'Annual Report',
+        'description' => 'Annual Report',
+        'status' => 'Active'
+    ),
+ // 
+    array(
+        'objid' => 'Annual Accomplishment Report',
+        'type' => 'Annual Accomplishment Report',
+        'description' => 'Annual Accomplishment Report',
+        'status' => 'Active'
+    ),
+    // 
+    array(
+        'objid' => 'AAR',
+        'type' => 'ANNUAL AUDIT REPORT',
+        'description' => 'ANNUAL AUDIT REPORT',
+        'status' => 'Active'
+    ),
+ // 
+    array(
+        'objid' => 'Acknowledgement Receipt of Report',
+        'type' => 'Acknowledgement Receipt of Report',
+        'description' => 'Acknowledgement Receipt of Report',
+        'status' => 'Active'
+    ),
+ // 
+    array(
+        'objid' => 'ARR',
+        'type' => 'Accomplishment Report/Record',
+        'description' => 'Accomplishment Report',
+        'status' => 'Active'
+    ),
+ // OKAY NA
+    array(
+        'objid' => 'AIR',
+        'type' => 'Acceptance Inspection Report ',
+        'description' => 'Acceptance Inspection Report ',
+        'status' => 'Active'
+    ),
+// 
+    array(
+        'objid' => 'AGRI',
+        'type' => 'AGRICULTURE PRODUCTS',
+        'description' => 'MONTHLY SALES REPORT ',
+        'status' => 'Active'
+    ),

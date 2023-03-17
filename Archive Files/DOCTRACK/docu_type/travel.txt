@@ -1,0 +1,52 @@
+ array(
+        'objid' => 'Travel Pass',
+        'type' => 'Travel Pass',
+        'description' => 'Travel Pass',
+        'status' => 'Active'
+    ),
+    array(
+        'objid' => 'Itinerary of Travel',
+        'type' => 'Itinerary of Travel',
+        'description' => 'Itinerary of Travel',
+        'status' => 'Active'
+    ),
+    
+    array(
+        'objid' => 'SUMRYOFAPRVTRVL',
+        'type' => 'Summary of Approve Travel',
+        'description' => 'Summary of Approved Travel',
+        'status' => 'Active'
+    ),
+    // 
+    array(
+        'objid' => 'AT',
+        'type' => 'AUTHORITY TO TRAVEL',
+        'description' => 'AUTHORITY TO TRAVEL',
+        'status' => 'Active'
+    ),
+    // 
+    array(
+        'objid' => 'OHRM',
+        'type' => 'AUTHORITY TO TRAVEL ABROAD',
+        'description' => 'FOR APPROVAL/SIGNATURE',
+        'status' => 'Active'
+    ),
+
+ array(
+        'objid' => 'TO',
+        'type' => 'Travel Order',
+        'description' => 'Travel Order',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'TVLO',
+        'type' => 'Travel Order',
+        'description' => 'Travel Order',
+        'status' => 'Active'
+    ),
+
+
+
+
+

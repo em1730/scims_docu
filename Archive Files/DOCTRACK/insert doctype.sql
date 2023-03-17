@@ -1,0 +1,50 @@
+INSERT INTO doctype (old_doctype, new_doctype) VALUES ('ANNUALBUDGETCY2020','ANNBUD')‏
+
+INSERT INTO doctype (old_doctype, new_doctype) VALUES ('ANNUAL BUDGET FY 2021', 'ANNBUD')‏, ('STATEMENT OF APPROPRIATION OF ANNUAL BUDGET', 'SAAB');
+
+
+
+   
+  
+    ‏,
+    ('LBM', 'LBMAT')‏,
+    ('LMB', 'LBMAT')‏,
+    ('Local Budget Matrix', 'LBMAT')‏,
+    ('LBFM', 'LBFMET')‏,
+    ('Local Budget Circular', 'LBCIR')‏,
+    ('LBPF', 'LBPREP')‏,
+    ('LOCALBDGTPREPRTN', 'LBPREP')‏,
+    ('budget proposal 2022', 'BUDPROP')‏,
+    ('Buget Proposal', 'BUDPROP')‏,
+    ('SB', 'SUPPBUD')‏,
+    ('Ceritificate of Posting', 'CERT')‏,
+    ('Cert. of Assumption to Duty', 'CERT')‏,
+    ('CC', 'CERT')‏,
+    ('Certificate of Apppreciation', 'CERT')‏,
+    ('CAD', 'CERT')‏,
+    ('COA', 'CERT')‏,
+    ('CRTFCATEOFCOMPLTN', 'CERT')‏,
+    ('CERTIFICATE OF COMPLETION', 'CERT')‏,
+    ('COE', 'CERT')‏,
+    ('Certificate of Marriage', 'CERT')‏,
+    ('CRFCTOFOCPNCY', 'CERT')‏,
+    ('Certificate of Participation', 'CERT')‏,
+    ('CRTTRNOVR', 'CERT')‏,
+    ('CertofProjCompletion', 'CERT')‏,
+    ('Certificate of Recognation', 'CERT')‏,
+    ('Certificate of Training', 'CERT')‏,
+    ('CERT LBP', 'CERT')‏,
+    ('1234', 'CERT')‏,
+    ('COC', 'CERT')‏,
+    ('IRC/CERT.', 'CERT')‏,
+    ('Notice of Longevity Pay', 'NLP')‏,
+    ('NTCEOFLNGEVTYPAY', 'NLP')‏,
+    ('VAR BRGY/CITY', 'NOLOSS')‏,
+    ('CITY/PROVINCE', 'NODELI')‏,
+    ('Notice of Illigal Construction', 'NOIC')‏,
+    ('bureau of treasury ', 'NOIRA')‏,
+    ('notice', 'NOIRA')‏,
+    ('UNISSUED FORM', 'NOLOSS')‏,
+    ('BARANGAY', 'NOLOSS')‏,
+    ('CITY/BRGY/PROV', 'NOLOSS')‏,
+    ('VAR BRGY/CITY', 'NOLOSS')‏

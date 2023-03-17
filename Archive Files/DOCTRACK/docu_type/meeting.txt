@@ -1,0 +1,58 @@
+ array(
+        'objid' => 'VBM',
+        'type' => 'BAC MEETING',
+        'description' => 'BAC MEETING',
+        'status' => 'Active'
+    ),
+
+    array(
+        'objid' => 'DOA',
+        'type' => 'ONLINE MEETING',
+        'description' => 'ONLINE MEETING',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'MTNG',
+        'type' => 'Meeting',
+        'description' => 'Notice of Meeting',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'METNGANDDELIBERTION',
+        'type' => 'Meeting and Deliberation',
+        'description' => 'Meeting and Deliberation',
+        'status' => 'Active'
+    ),
+
+    array(
+        'objid' => 'LSBMTNG',
+        'type' => 'Local School Borad Meeting',
+        'description' => 'Local School Board Meeting',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'MNUTESOFMTNG',
+        'type' => 'Minutes of Meeting',
+        'description' => 'Minutes of Meeting',
+        'status' => 'Active'
+    ),
+
+
+    array(
+        'objid' => 'MTHLYMTNG',
+        'type' => 'Monthly  Meeting',
+        'description' => 'Monthly Meeting',
+        'status' => 'Active'
+    ),
+
+
+
+    array(
+        'objid' => 'JCM',
+        'type' => 'JOINT COMMITTEE MEETING',
+        'description' => 'JOINT COMMITTEE MEETING',
+        'status' => 'Active'
+    ),

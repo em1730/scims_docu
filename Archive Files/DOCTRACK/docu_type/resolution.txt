@@ -1,0 +1,50 @@
+
+
+
+
+    array(
+        'objid' => 'SPRSLTION',
+        'type' => 'sp resolution',
+        'description' => 'SP-RESOLUTION',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'SPRes',
+        'type' => 'SP Resolution',
+        'description' => 'SP Resolution',
+        'status' => 'Active'
+    ),
+ array(
+        'objid' => 'BACRes',
+        'type' => 'BAC Resolution',
+        'description' => 'BAC Resolution',
+        'status' => 'Active'
+    ),
+array(
+        'objid' => 'CDCRes',
+        'type' => 'CDCRes',
+        'description' => 'CDC Resolution',
+        'status' => 'Active'
+    ),
+ array(
+        'objid' => 'JR',
+        'type' => 'JOINT RESOLUTION',
+        'description' => 'JOINT RESOLUTION',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'RES',
+        'type' => 'Resolution',
+        'description' => 'Resolution',
+        'status' => 'Active'
+    ),
+    array(
+        'objid' => 'SPRSLTION',
+        'type' => 'sp resolution',
+        'description' => 'SP-RESOLUTION',
+        'status' => 'Active'
+    ),
+
+

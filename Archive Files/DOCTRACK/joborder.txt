@@ -1,0 +1,119 @@
+      <form role="form" method="post" action="<?php htmlspecialchars("PHP_SELF"); ?>">
+              <div class="box-body">
+                <?php echo $alert_msg; ?>
+
+                <!-- <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                   <label>Job Order ID:</label>
+                  </div>
+                  <div class="col-md-10">
+                      <input type="text" class="form-control" name="idnumber" placeholder="Job Order ID" value="<?php echo $idnumber; ?>" required>
+                  </div>
+                </div><br> -->
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Control Number:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="controlNumber" placeholder="Type N/A if not applicable!" value="<?php echo $control; ?>">
+                  </div>
+                </div><br>
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>First Name:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="firstname" placeholder="First Name" value="<?php echo $fname; ?>" required>
+                  </div>
+                </div><br>
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Middle Name:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="middlename" placeholder="Middle Name" value="<?php echo $middle; ?>">
+                  </div>
+                </div><br>
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Last Name:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="lastname" placeholder="Last Name" value="<?php echo $last; ?>" required>
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <label>Rate Per Day:</label>
+                  </div>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" name="rate" placeholder="Rate Per Day" value="<?php echo $rate; ?>">
+                  </div>
+                </div><br>
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <!-- <div class="form-group"> -->
+                    <label>Department/Office:</label>
+                  </div>
+
+                  <div class="col-md-10">
+                    <select class="form-control select2" readonly style="width: 100%;" name="department" value="<?php echo $department; ?>">
+                      <option>Please select...</option>
+                      <?php while ($get_dept = $get_all_department_data->fetch(PDO::FETCH_ASSOC)) { ?>
+
+                        <?php
+                        //if $get_author naa value, check nato if equals sa $get_author1['fullname']
+                        //if equals, put 'selected' sa option
+                        $selected = ($department == $get_dept['objid']) ? 'selected' : '';
+
+                        ?>
+
+                        <option <?= $selected; ?> value="<?php echo $get_dept['objid']; ?>"><?php echo $get_dept['department']; ?></option>
+                      <?php } ?>
+                    </select>
+                  </div>
+                </div><br>
+
+
+                <div class="row">
+                  <div class="col-md-2" style="text-align: right;padding-top: 5px;">
+                    <!-- <div class="form-group"> -->
+                    <label>Status</label>
+                  </div>
+                  <div class="col-md-10">
+
+                    <select class="form-control select2" style="width: 100%;" name="status" value="<?php echo
+                                                                                                    $status; ?>">
+                      <option>Please select...</option>
+                      <option <?php if ($status == 'Active') echo 'selected'; ?> value="Active">Active </option>
+                      <option <?php if ($status == 'Inactive') echo 'selected'; ?> value="Inactive">Inactive </option>
+
+                    </select>
+                  </div>
+                </div><br>
+
+
+
+                <!-- /.box-body -->
+                <div class="box-footer" align="center">
+                  <input type="submit" <?php echo $btnNew; ?> name="add" class="btn btn-primary" value="New">
+                  <input type="submit" <?php echo $btnStatus; ?> name="insert_jobOrder" class="btn btn-primary" value="Save">
+                  <a href="department">
+                    <input type="button" name="cancel" class="btn btn-default" value="Cancel">
+                  </a>
+                </div>
+            </form>
+
+
+
+
+  <th>ID</th>
+              <th>Control No.</th>
+              <th>First Name</th>
+              <th>Middle Name</th>
+              <th>Last Name</th>
+              <th>Department/Office</th>
+              <th>Status</th>
+              <th>Options</th>

@@ -1,0 +1,33 @@
+array(
+        'objid' => 'OT',
+        'type' => 'Request',
+        'description' => 'Request for Overtime Work',
+        'status' => 'Active'
+    ),
+ //
+    array(
+        'objid' => 'Request Overtime',
+        'type' => 'Request Overtime',
+        'description' => 'Overtime Service: November 04,2019 OHRM 1.Jonard A.Mondero 2.Mark Glenver P.Villasorda',
+        'status' => 'Active'
+    ),
+  //
+    array(
+        'objid' => 'Request Permission to Conduct Overtime Work',
+        'type' => 'Request Permission to Conduct Overtime Work',
+        'description' => 'Request Permission to Conduct Overtime Work',
+        'status' => 'Active'
+    ),
+  // 
+    array(
+        'objid' => 'ATO',
+        'type' => 'Authority to Render Overtime',
+        'description' => 'Authority to Render Overtime',
+        'status' => 'Active'
+    ),
+   array(
+        'objid' => 'Confirmation of Ovetime',
+        'type' => 'Confirmation of Ovetime',
+        'description' => 'Confirmation of Ovetime',
+        'status' => 'Active'
+    ),

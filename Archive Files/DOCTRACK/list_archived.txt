@@ -1,0 +1,38 @@
+<div class="card">
+      <div class="card-header">
+        <h3 class="card-title">Archived Documents</h3>
+      </div>
+      <!-- /.card-header -->
+      <div class="card-body">
+        <table id="archived" class="table table-bordered table-striped">
+
+          <thead>
+            <tr>
+              <th>Document No.</th>
+              <th>Date</th>
+              <th>Type</th>
+              <th>Particulars</th>
+              <th>Origin</th>
+              <th>Status</th>
+              <th>Remarks</th>
+              <th>Options</th>
+            </tr>
+          </thead>
+          <tbody>
+
+
+          </tbody>
+        </table>
+      </div>
+      <!-- /.box-body -->
+      </form>
+    </div>
+
+
+
+
+
+ <div class="col-md-10">
+    <input type="hidden" id="department" readonly class="form-control" name="department" placeholder="Department" value="<?php echo
+                                                                                                                          $department; ?>">
+  </div>

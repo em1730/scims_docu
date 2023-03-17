@@ -1,0 +1,133 @@
+    array(
+        'objid' => 'List of Business Establishments',
+        'type' => 'List of Business Establishments',
+        'description' => 'List of Business Establishments',
+        'status' => 'Active'
+    ),
+
+  array(
+        'objid' => 'CHCKLIST',
+        'type' => 'Checklist',
+        'description' => 'Checklist',
+        'status' => 'Active'
+    ),
+ array(
+        'objid' => 'IOSLOE',
+        'type' => 'Inventory of Office Supplies & List of Office Equipment',
+        'description' => 'Inventory of Office Supplies & List of Office Equipment',
+        'status' => 'Active'
+    ),
+array(
+        'objid' => 'List of Approved Voters',
+        'type' => 'List of Approved Voters',
+        'description' => 'List of Approved Voters',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LSTOFBNFCRIES',
+        'type' => 'List of Bnefeciaries',
+        'description' => 'List of Benefeciaries',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LISTOFBOND',
+        'type' => 'List of Bond',
+        'description' => 'List of Bond',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LISTOFBND',
+        'type' => 'List of Bond',
+        'description' => 'List of Bond Barangay',
+        'status' => 'Active'
+    ),
+    //
+   
+    //
+    array(
+        'objid' => 'LDRP',
+        'type' => 'LIST OF DELINQUENT REAL PROPERTIES',
+        'description' => 'LIST OF DELINQUENT REAL PROPERTIES',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'List of Employees',
+        'type' => 'List of Employees',
+        'description' => 'List of Employees',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LISTOFEVCTNCNTR',
+        'type' => 'List Of Evacuation Center',
+        'description' => 'List of Evacuation  Center',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'PMSD',
+        'type' => 'LIST OF GOODS',
+        'description' => 'PRICES OF GOODS/PRODUCT',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LIST/NAME',
+        'type' => 'List of Left out -SAP',
+        'description' => 'SAP  Left Outs',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'List of Offices',
+        'type' => 'List of Offices',
+        'description' => 'List of Offices',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'List of Project Proposed',
+        'type' => 'List of Project Proposed',
+        'description' => 'List of Project Proposed',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LSTOFRCPNTSOFDSPRSAL',
+        'type' => 'List of recepient of dispersal',
+        'description' => 'List ofrecepient of dispersa;',
+        'status' => 'Active'
+    ),
+    //
+ 
+    //
+    array(
+        'objid' => 'LIST/ PROFILE',
+        'type' => 'LIST/PROFILE OF BRGY NUTRITION PROFILE',
+        'description' => 'BNS-Alquisalas, Jonathan et al ',
+        'status' => 'Active'
+    ),
+    //
+    array(
+        'objid' => 'LIST/ PROF',
+        'type' => 'LIST/PROFILE OF BRGY NUTRITION SCHOLAR',
+        'description' => 'LIST/PROFILE',
+        'status' => 'Active'
+    ),
+  array(
+        'objid' => 'SOCIAL AMLRATION PRGRM(SAP)MASTRLIST',
+        'type' => 'SAP',
+        'description' => 'SOCIAL AMELIORATION PROGRAM(SAP)MASTERLIST',
+        'status' => 'Active'
+    ),
+ array(
+        'objid' => 'CL',
+        'type' => 'COLLECTION LIST',
+        'description' => 'COLLECTION LIST OF EMPLOYEES',
+        'status' => 'Active'
+    ),
+
