@@ -1,0 +1,61 @@
+<aside class="control-sidebar control-sidebar-dark">
+  <div class="modal-header">
+    <h4 class="modal-title">SETTINGS</h4>
+  </div>
+
+  <div class="modal-body">
+
+    <div class="box-body">
+
+      <div class="form-group" <?php if ($department != 'CBO') { ?> style="display:none" <?php } ?>>
+        <h6 class="modal-title">Update Previous OBR No:</h6>
+        <input type="text" name="update_prevobr" id="update_prevobr" class="form-control" value="<?php echo $settings_prevobr; ?>" required>
+      </div>
+
+      <div class="form-group" <?php if ($department != 'CBO') { ?> style="display:none" <?php } ?>>
+        <h6 class="modal-title">Update OBR No:</h6>
+        <input type="text" name="update_obr" id="update_obr" class="form-control" value="<?php echo   $settings_obr; ?>" required>
+      </div>
+
+      <div class="box-body">
+        <div class="form-group" <?php if ($department != 'ACCTG') { ?> style="display:none" <?php } ?>>
+          <h6 class="modal-title">Update DV No:</h6>
+          <input type="text" name="update_dv" id="update_dv" class="form-control" value="<?php echo $settings_dv; ?>" required>
+        </div>
+
+        <!-- <div class="form-group">
+                    <label>Date:</label>
+                    <label id="lblDate"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Time:</label>
+                    <label id="lblTime"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Type:</label>
+                    <label id="lblType"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Particulars:</label>
+                    <label id="lblParticulars"></label>
+                    </div>                   
+                    <div class="form-group">
+                    <label>Origin:</label>
+                    <label id="lblOrigin"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Destination:</label>
+                    <label id="lblDestination"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Remarks:</label>
+                    <label id="lblRemarks"></label>
+                    </div>
+
+                    <div class="form-group">
+                    <h5 class="blinking"  id="lblMessage"> </h5>
+                    </div> -->
+
+      </div>
+    </div>
+</aside>

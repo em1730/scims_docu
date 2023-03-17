@@ -1,0 +1,74 @@
+  <aside class="control-sidebar control-sidebar-dark">
+  <div class="modal-header">
+                <h4 class="modal-title">REVERT DOCUMENT</h4>
+              </div>
+          
+                <div class="modal-body">  
+                  <div class="box-body">
+                    <div class="form-group">
+                    <input type="text" name="scan_receive" id="scan_receive" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                    <label>Date:</label>
+                    <label id="lblDate"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Type:</label>
+                    <label id="lblType"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Particulars:</label>
+                    <label id="lblParticulars"></label>
+                    </div>                   
+                    <div class="form-group">
+                    <label>Origin:</label>
+                    <label id="lblOrigin"></label>
+                    </div>
+                    <div class="form-group">
+                    <label>Remarks:</label>
+                    <label id="lblRemarks"></label>
+                    </div>
+
+                    <div class="form-group">
+                    <h5 class="blinking"  id="lblMessage"> </h5>
+                    </div>
+
+                  </div>
+                </div>
+  </aside>
+
+ $('#scan_receive').on('change', function() {
+
+      // function receive(){
+      var docno = document.getElementById("scan_receive").value;
+
+      // alert (docno);
+
+      $.ajax({
+        type: 'POST',
+        data: {
+          docno: docno
+        },
+        url: 'scan_receive.php',
+        success: function(data) {
+          var result = $.parseJSON(data);
+          // alert(result.type)
+          document.getElementById('lblDate').innerHTML = result.date;
+          document.getElementById('lblType').innerHTML = result.type;
+          document.getElementById('lblParticulars').innerHTML = result.particulars;
+          document.getElementById('lblOrigin').innerHTML = result.origin;
+          document.getElementById('lblRemarks').innerHTML = result.remarks;
+          document.getElementById('lblMessage').innerHTML = result.message;
+
+        }
+
+      });
+
+      document.getElementById('scan_receive').focus();
+      document.getElementById('scan_receive').select();
+
+      //
+
+
+    });

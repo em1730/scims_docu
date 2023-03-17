@@ -1,0 +1,62 @@
+DOCTRACK CHANGES
+
+
+1. added date_time(column - varchar 100) in tbl_documents table
+2. added txnhistory in forward document
+3. added idno (column - PK, Auto Increment) in tbl_joborder table
+4. added dts_txnhistory table
+5. delete table (document_type) - php file array
+6. changes of table account_type 
+7. delete table (deparments) - php file array
+8. put error trap in add_outgoing.php before saving
+9. fixed list incoming (serverside masterlist) 
+10. 
+11. 
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+
+
+
+
+ - remove contact_no, email_add, position in table_users
+ -
+ - fixed user_id in table_users make sure its incremented
+ - 
+
+
+* PR/PO
+ - list of supplier in select2 (payee)
+
+* List Outgoing
+ - put transact history
+ - fixed updated in revert document and DV
+ - add forward document
+
+
+
+* List Incoming
+ - fixed
+
+
+MASTERLIST 
+
+ * Supplier (FIXED)
+   ~ Serverside listing
+   ~ Add (insert, error trap) 	
+   ~ View (update)
+ 
+
+
+
+emjhayyelona1730@gmail.com
+chinitaku1730
+
+
+

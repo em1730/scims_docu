@@ -1,0 +1,27 @@
+<div class="modal fade" id="release_Modal" role="dialog" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Confirm Release</h4>
+        </div>
+        <form method="POST" action="<?php htmlspecialchars("PHP_SELF") ?>">
+          <div class="modal-body">
+            <div class="box-body">
+              <div class="form-group">
+                <label>Release Record?</label>
+                <input type="text" name="user_id" id="user_id" class="form-control">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-default pull-left bg-olive" data-dismiss="modal">No</button>
+            <!-- <button type="submit" name="delete_user" class="btn btn-danger">Yes</button> -->
+            <input type="submit" name="insert_forward" class="btn btn-danger" value="Yes">
+          </div>
+        </form>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
