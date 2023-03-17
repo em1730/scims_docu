@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../idashboard"
+		},
+		{
+			"path": "../../../../Applications/XAMPP/xamppfiles/htdocs/SCIMS"
+		},
+		{
+			"path": "../../../../Applications/XAMPP"
+		},
+		{
+			"path": "../../../../Applications/XAMPP/xamppfiles/htdocs/vamos"
+		}
+	],
+	"settings": {}
+}
