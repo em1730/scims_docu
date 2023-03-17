@@ -1,0 +1,10 @@
+create database in sqlyog
+then change database name in .env
+terminal - php artisan migrate (to reflect tables to local sql
+
+
+
+php artisan migrate (migrate tables db to local db)
+php artisan serve (load website)
+php artisan optimize (refresh)
+php artisan make:migration table_name (create table)
